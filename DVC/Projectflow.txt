@@ -17,3 +17,6 @@
 14 Now do a git add commit push to mark this stage as second file version of data.
 15 check dvc/git status everything should be upto date
 16 Now repeat step 10-12 for v3 of data.
+
+git log --oneline
+git checkout <hash>
