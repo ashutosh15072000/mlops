@@ -13,8 +13,8 @@ new_row_loc = {"Name":'v2', "Age":30, "City":'Lucknow'}
 df.loc[len(df.index)]=new_row_loc
 
 # ## Adding new row to df for v3
-# new_row_loc = {"Name":'v3', "Age":35, "City":'Lucknow'}
-# df.loc[len(df.index)]=new_row_loc
+new_row_loc = {"Name":'v3', "Age":35, "City":'Lucknow'}
+df.loc[len(df.index)]=new_row_loc
 
 ## Ensure the ""data"" directerory exists at the root level
 data_dir="DVC/data"
