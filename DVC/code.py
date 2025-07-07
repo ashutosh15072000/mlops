@@ -17,11 +17,11 @@ df = pd.DataFrame(data)
 # df.loc[len(df.index)]=new_row_loc
 
 ## Ensure the ""data"" directerory exists at the root level
-data_dir="data"
+data_dir="DVC/data"
 os.makedirs(data_dir,exist_ok=True)
 ## Define the file Path
 file_path=os.path.join(data_dir,"sample_data.csv")
 
 ## Save the dataframe to a csv file including columns name
 df.to_csv(file_path,index=False)
-print("csv file saved to {file_path}")
+print(f"csv file saved to {file_path}")
