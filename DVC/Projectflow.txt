@@ -10,3 +10,4 @@
   Next it will ask to do: (git rm -r --cached 'data' and "git commit -m "stop tracking data")
   Because initially we were tracking data/folder from git so now we remote it for DVC to handle.
 9 Again we do "DVC add data/" (create data.dvc) then "git add .gitignore data.dvc"
+10 Now "Dvc commit and then dvc push"
